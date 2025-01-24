@@ -13,7 +13,7 @@ interface User {
     name: String!
 }
 
-type Auther implements User {
+type Author implements User {
     id: ID!
     name: String!
     posts: [Post!]!
