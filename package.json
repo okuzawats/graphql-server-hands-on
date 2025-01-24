@@ -4,7 +4,8 @@
   "description": "Software Design 2024/09",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "transpile": "tsc",
+    "start": "npm run transpile && node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
