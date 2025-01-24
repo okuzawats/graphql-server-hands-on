@@ -16,5 +16,9 @@
     "@graphql-tools/load": "^8.0.2",
     "@graphql-tools/schema": "^10.0.4",
     "graphql": "^16.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
   }
 }
